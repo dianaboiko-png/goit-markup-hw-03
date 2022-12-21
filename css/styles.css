@@ -228,6 +228,10 @@ ul {
 .section.work {
   padding-top: 0;
 }
+.strengths {
+  display: flex;
+  gap: 24px;
+}
 
 .list.strengths .item+.item,
 .list.work .item+.item,
@@ -235,8 +239,10 @@ ul {
   margin-left: 24px;
 }
 
-.list.strengths .item {
+.list.strengths.item {
   width: 264px;
+  flex-basis: calc((100% - 72px) / 4);
+
 }
 
 .team-item-text {
