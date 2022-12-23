@@ -105,7 +105,7 @@ ul {
 .contacts,
 .header-nav,
 .main-nav,
-.list.strengths,
+.list.strenghts,
 .list.work,
 .list.team,
 .selector,
@@ -228,20 +228,16 @@ ul {
 .section.work {
   padding-top: 0;
 }
-.strengths {
-  display: flex;
-  gap: 24px;
-}
 
-.list.strengths .item+.item,
+
+.list.strenghts .item+.item,
 .list.work .item+.item,
 .list.team .item+.item {
   margin-left: 24px;
 }
 
-.list.strengths.item {
-  width: 264px;
-  flex-basis: calc((100% - 72px) / 4);
+.list.strenghts.item {
+  width: 264px
 
 }
 
